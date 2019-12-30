@@ -1,0 +1,21 @@
+{
+  "name": "mmo-templates",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "typings": "index",
+  "dependencies": {
+    "mmo-command-line": "github:terkojones/mmo-command-line",
+    "mmo-replacer": "github:terkojones/mmo-replacer",
+    "unzipper": "^0.10.5"
+  },
+  "devDependencies": {
+    "@types/node": "^12.12.18"
+  },
+  "scripts": {
+    "test": "node test/main.test.js"
+  },
+  "keywords": [],
+  "author": "Terko Jones <terkojones@gmail.com>",
+  "license": "ISC"
+}
